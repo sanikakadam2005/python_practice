@@ -4,6 +4,12 @@ def display():
 display()
 
 
+def display():
+    print("good morning")
+
+display()
+
+
 # by passing the parameters
 def add(a,b):
     print(a+b)
