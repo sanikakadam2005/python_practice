@@ -64,5 +64,5 @@
 
 #replace()
 str = "Java is a programming language"
-str2=str.replace("java","python")
-print(str2)
+str3=str.replace("Java","python")
+print(str3)
