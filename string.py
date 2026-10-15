@@ -62,7 +62,65 @@
 # print(str1)
 # print(str2)
 
+#len()
+# str="welcome"
+# print(len(str))
+
 #replace()
-str = "Java is a programming language"
-str3=str.replace("Java","python")
-print(str3)
+# str = "Java is a programming language"
+# str3=str.replace("Java","python")
+# print(str3)
+
+#join()
+# str=""
+# list=["h","e","l","l","o"]
+# str2=str.join(list)
+# print(str2)
+
+#index= is used to access the priority from forward to backword
+#it returns the first occured sring
+#find= if the variable is cant present in the string then print the -1 by default an index ,ethod give the error
+
+# str="communication"
+# str2=str.index("c")    #Communication
+# print(str2)
+# str3=str.rfind("c")                      # diff bet find and rfind   and  find and index
+# print(str3)
+
+# str="Welcome to the python"
+# str2=str.index("p",13,21)
+# print(str2)
+
+
+
+#partition ()   retun in the value in tuple  it can be seoarate the according to the condition
+
+# str="python is a programming language"
+# str2=str.partition("is")
+# print(str2)
+
+#split()   it is used to split the each and evry word present in the give n sttements
+# str="python is a programming language"
+# str2=str.split()
+# print(str2)
+
+
+#count()-- it used to the find the vowels in the given
+# str="python is a programming language"
+# str2=str.count("pro",6,15)
+# print(str2)
+
+
+#count
+
+s="programming"
+count=0
+for ch in s:
+    if(ch=='a' or ch=='e' or ch=='i'or ch=='o'or ch=='u'):
+        count +=1
+    
+print(count)
+
+
+
+
