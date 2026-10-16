@@ -105,7 +105,7 @@
 # print(str2)
 
 
-#count()-- it used to the find the vowels in the given
+#count()-- it used to the find the vowels in the given string
 # str="python is a programming language"
 # str2=str.count("pro",6,15)
 # print(str2)
@@ -113,14 +113,20 @@
 
 #count
 
-s="programming"
+# s="programming"
+# count=0
+# for ch in s:
+#     if(ch=='a' or ch=='e' or ch=='i'or ch=='o'or ch=='u'):
+#         count +=1
+    
+# print(count)
+
+s="communication"
 count=0
 for ch in s:
-    if(ch=='a' or ch=='e' or ch=='i'or ch=='o'or ch=='u'):
+    if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
         count +=1
-    
 print(count)
-
 
 
 
