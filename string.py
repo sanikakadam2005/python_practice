@@ -121,12 +121,57 @@
     
 # print(count)
 
-s="communication"
-count=0
-for ch in s:
-    if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
-        count +=1
-print(count)
+# s="communication"
+# count=0
+# for ch in s:
+#     if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
+#         count +=1
+# print(count)
 
+# s="programming"
+# for ch in s:
+#     if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
+#         print("total count of the vowels is:,ch")
+
+
+#3. s="python_is_programming_land"  to count th spaces
+
+
+# s="python is programming lang"
+# count=0
+# for ch in s:
+#     if ch==" ":
+#         count +=1
+# print("total white sopace in s",count)
+
+
+# s="programming language"
+# count=0
+# for ch in s:
+#     if(ch=="a"):
+#         count +=1
+# print(count)
+
+#task=1.  to check the given styring is anagram or not      without using the inbuilt funcytions
+
+# 2.to reverse a given string eg. python
+# 3."hello how are you" reverse this string      you are how hello
+# 4. input=krishna    output=k|r|i|s|s|n|a
+
+# 5 count the frequency  of the give n string frequency   how many times elements ar comes in this string
+# 6.imput=python   output=  chr    +ve index       -ve indexing --  using loop
+
+# 7 to chech the palindrome or not 
+   
+s="mom"
+s1=s[ : :-1]
+if(s==s1):
+    print("string is pallindrome")
+else:
+    print("not palindrome")
+
+    # 11-input-hello      output=HELLO    without using upper method
+    #12 input-HELLO      output-hello     witjout using in build method
+    
 
 
