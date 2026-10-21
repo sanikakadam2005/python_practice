@@ -1,21 +1,21 @@
 
 #1. to check the given string is anagram or not  without using the inbuilt functions
-str1=input("enter the string1:")
-str2=input("enter the string2:")
-if len(str1)!=len(str2):
-    print("Not Anagram")
-else:
-    for ch in str1:
-        found=0
-    for i in range(len(str2)):
-        if ch==str2[i]:
-            found=1
-            str2=str2[:i]+str2[i+1:]
-            break
-    if found==0:
-        print("Not Anagram")
-    else:
-        print("Anagram")
+# str1=input("enter the string1:")
+# str2=input("enter the string2:")
+# if len(str1)!=len(str2):
+#     print("Not Anagram")
+# else:
+#     for ch in str1:
+#         found=0
+#     for i in range(len(str2)):
+#         if ch==str2[i]:
+#             found=1
+#             str2=str2[:i]+str2[i+1:]
+#             break
+#     if found==0:
+#         print("Not Anagram")
+#     else:
+#         print("Anagram")
 
 
 
@@ -31,61 +31,44 @@ else:
 # rev=" "
 # for ch in string:
 #     rev=ch+rev
-# pytgprint(rev)
+# print(rev)
 
 #3."hello how are you" reverse this string 
-# str="hello how are you"
-# str1=str[ : :-1]
-# print(str1)
-
+# string=input("enter a string:")
+# word=""
+# result=""
+# for i in string:
+#     if i!=" ":
+#         word=word+i
+#     else:
+#         result=word + " " + result
+#         word=" "
+# result=word + " " + result
+# print(result)    
 
 #4.# 4. input=krishna    output=k|r|i|s|s|n|a
 
-# str1 = input("Enter a string: ")
-# result = ""
-# count = 0
-
-# for ch in str1:
-#     if count == 0:
-#         result = ch
+# str=input("enter the string")
+# for i in range(len(str)):
+#     if i<len(str)-1:
+#         print(str[i],end="|")
 #     else:
-#         result = result + "|" + ch
-
-#     count = count + 1
-
-# print(result)
+#         print(str[i])
 
 
 
 #5 count the frequency  of the given string 
-
-# str1 = input("Enter a string: ")
-
-# for ch in str1:
-#     count = 0
-#     duplicate = 0
-
-#     for x in str1:
-#         if x == ch:
-#             count = count + 1
-
-#     for y in str1:
-#         if y == ch:
-#             if y == ch:
-#                 break
-
-#     for z in str1:
-#         if z == ch:
-#             break
-
-#     for x in str1:
-#         if x == ch:
-#             break
-
-#     print(ch, "=", count)
+# string=input("enter the string:")
+# frequency={ }
+# for ch in string:
+#     if ch in frequency:
+#         frequency [ch]+=1
+#     else:
+#         frequency[ch]=1
+# print(frequency)
 
 
-#6.
+#6.# 6.imput=python   output=  chr    +ve index       -ve indexing --  using loop
 # s = input("Enter a string: ")
 
 # for i in range(len(s)):
@@ -95,7 +78,7 @@ else:
 # 7 to check the  no. is palindrome or not  
 # string=input("enter the string:")
 # string1=string
-# rev=" "
+# rev=""
 # for ch in string:
 #     rev=ch+rev
 # print(rev)
