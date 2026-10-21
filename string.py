@@ -158,10 +158,10 @@
 # 3."hello how are you" reverse this string      you are how hello
 # 4. input=krishna    output=k|r|i|s|s|n|a
 
-# 5 count the frequency  of the give n string frequency   how many times elements ar comes in this string
+# 5 count the frequency  of the give n string     frequency  = how many times elements ar comes in this string
 # 6.imput=python   output=  chr    +ve index       -ve indexing --  using loop
 
-# 7 to chech the palindrome or not 
+# 7 to chech the palindrome or not   
    
 s="mom"
 s1=s[ : :-1]
