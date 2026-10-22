@@ -18,6 +18,18 @@
 #         print("Anagram")
 
 
+#                   or
+
+# by using the built i9n method
+
+str1 = input("Enter first string: ")
+str2 = input("Enter second string: ")
+
+if sorted(str1) == sorted(str2):
+    print("Anagram")
+else:
+    print("Not Anagram")
+
 
 
 # 2.to reverse a given string eg. python 
@@ -43,7 +55,8 @@
 #     else:
 #         result=word + " " + result
 #         word=" "
-# result=word + " " + result
+# result=word + " " + result 
+
 # print(result)    
 
 #4.# 4. input=krishna    output=k|r|i|s|s|n|a
