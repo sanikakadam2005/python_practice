@@ -30,11 +30,12 @@
 
 
 # # Armstrong or not
+
 # import Armstrong;
 # num=int(input("enter the number:"))
 # Armstrong.show(num)
 
-# pallendrome  or not
+# pallindrome  or not
 
 import palindrom;
 num=int(input("enter the number:"))
