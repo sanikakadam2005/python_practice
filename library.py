@@ -10,11 +10,10 @@
 
 # tupres of array
 # 0-D= array(42)==scaler
-# 1D=   []   == vector
-# 2D=[[],[]]  == matrix
-# 3D=[[[],[],[]]]== 3D tensor
+# 1D=   []   =vector
+# 2D=[[],[]]  =matrix
+# multidimentional=[[[],[],[]]]= tensor
 
-# 4D=    4D tensor
 
 # import numpy as np
 # arr1=np.array(42)
@@ -32,20 +31,29 @@
 # print(arr1.dtype)
 # print(arr2.dtype)
 
-# import numpy as np
-# x=np.array([3,5])
-# y=np.array([2,5])
-# print("original numbers")
-# print(x)
-# print(y)
-# print("comparision -greater")
-# print(np.greater(x,y))
-# print("comparision of greater_eqaul")            #error
-# print(np.greater_eqaul(x,y))
-# print("comparision-less")
-# print(np.less(x,y))
-# print("comparision-less eqaul")
-# print(np.less_eqaul(x,y))
+
+import numpy as np
+
+x = np.array([3, 5])
+y = np.array([2, 5])
+
+print("Original numbers")
+print(x)
+print(y)
+
+print("Comparison - Greater")
+print(np.greater(x, y))
+
+print("Comparison - Greater Equal")
+print(np.greater_equal(x, y))
+
+print("Comparison - Less")
+print(np.less(x, y))
+
+print("Comparison - Less Equal")
+print(np.less_equal(x, y))
+
+
 
 
 # import numpy as np
@@ -59,15 +67,15 @@
 # for x in a:     # dir 1D
 #     print(x)
 
-import numpy as np
-a=np.array([[[1,2,3],[1,2,3],[1,2,3]]])
-for i in a:
-    print(i)
-for i in np.nditer(a):
-    print(i)
-a=np.array([1,2,3,4,5,4,4])
-n=np.where(a==4)
-print(n)
+# import numpy as np
+# a=np.array([[[1,2,3],[1,2,3],[1,2,3]]])
+# for i in a:
+#     print(i)
+# for i in np.nditer(a):
+#     print(i)
+# a=np.array([1,2,3,4,5,4,4])
+# n=np.where(a==4)
+# print(n)
 
 
 # import numpy as np
