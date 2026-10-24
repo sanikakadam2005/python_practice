@@ -1,4 +1,4 @@
-#An unwanted and unexpected event that disturbs normal flow of program is called exception.abs
+#An unwanted and unexpected event that disturbs normal flow of program is called exception.
 
 #without try-except
 # print("stmt-1")
@@ -34,5 +34,6 @@ except ArithmeticError:
 except ZeroDivisionError:
     print("Zerodivision error")   
 
-# difference keywordlengthargument and variablelength argument
+# difference  between keyword length argument and variablelength argument
 # pass keyword
+
