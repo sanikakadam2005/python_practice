@@ -98,7 +98,41 @@
 # # to printthe add in the ach element 0f 10
 # def add(x):
 
-# use of pass keyworld
-def demo():
-    pass
-demo()
+# use of pass keyworld = pass keyword is used to the  to reserve the location
+# def demo():
+#     pass
+# demo()
+
+#function argumenta= there 4 types of arguments that we can provide in a function
+
+#1.default argument
+# def name(fname,mname="vijay",lname="kadam"):
+#     print("hello,", fname,mname,lname)
+# name("sanika")
+
+
+# 2.keyword argument
+
+# def name(fname,mname,lname):
+#     print("hello",fname,mname,lname)
+# name(mname="vijay",fname="sanika",lname="kadam")
+
+#3.variable length argument
+#  a. arbitary arguments
+def avg(*numbers):
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    print("Avg is",sum/len(numbers))
+avg(1,4,5,6)
+
+#   b. keyword arbitary bargument
+def name(**name):
+    print(type(name))
+    print("hello",name["fname"],name["mname"],name["lname"])
+name(mname="vijay",lname="kadam",fname="sanika")
+
+
+#4.required argument
+
+
