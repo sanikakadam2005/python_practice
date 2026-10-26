@@ -32,26 +32,26 @@
 # print(arr2.dtype)
 
 
-import numpy as np
+# import numpy as np
 
-x = np.array([3, 5])
-y = np.array([2, 5])
+# x = np.array([3, 5])
+# y = np.array([2, 5])
 
-print("Original numbers")
-print(x)
-print(y)
+# print("Original numbers")
+# print(x)
+# print(y)
 
-print("Comparison - Greater")
-print(np.greater(x, y))
+# print("Comparison - Greater")
+# print(np.greater(x, y))
 
-print("Comparison - Greater Equal")
-print(np.greater_equal(x, y))
+# print("Comparison - Greater Equal")
+# print(np.greater_equal(x, y))
 
-print("Comparison - Less")
-print(np.less(x, y))
+# print("Comparison - Less")
+# print(np.less(x, y))
 
-print("Comparison - Less Equal")
-print(np.less_equal(x, y))
+# print("Comparison - Less Equal")
+# print(np.less_equal(x, y))
 
 
 
@@ -83,3 +83,5 @@ print(np.less_equal(x, y))
 # x=np.where(a%2==0)
 # print(x)
 # print(np.sort(a))
+
+
