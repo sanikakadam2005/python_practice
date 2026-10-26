@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # def display():
 #     print("hello world")
 
@@ -137,7 +137,7 @@ name(mname="vijay",lname="kadam",fname="sanika")
 #4.required argument
 
 
-=======
+
 # def display():
 #     print("hello world")
 
@@ -279,4 +279,4 @@ def greet(name, message="Hello"):
     print(message, name)
 
 greet("Sanika")
->>>>>>> cf71758 (add the requirement argument example)
+

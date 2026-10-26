@@ -67,10 +67,10 @@
 # else:
 #     print("the file does not exist")
 
-f=open("file.txt","w")
-f.write("hello my name is sanika")
-f.close()
-#with statement
-with open("file.txt","r") as f:
-    content=f.read();
-    print(content)
+# f=open("file.txt","w")
+# f.write("hello my name is sanika")
+# f.close()
+# #with statement
+# with open("file.txt","r") as f:
+#     content=f.read();
+#     print(content)
