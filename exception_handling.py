@@ -64,5 +64,30 @@
 # print(c)
 # except IOError:
 #     print("Io error occured")
+
+
 # 5 EOFerror
+
+
+
+class TooYoungException(Exception):
+    def __init__ (self,arg):
+        self.msg=args
+    
+
+class TooOldException(Exception):
+     def __init__ (self,arg):
+         self.msg=args
+   
+
+
+age=int(input("enter ege"))
+if age>60:
+    raise TooOldException(("you are already crossed mariage age"))
+elif age<18:
+    raise TooYoungException(("please wait more time"))
+else:
+    print("successfully run")
+
+ 
 
